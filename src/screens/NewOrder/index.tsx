@@ -7,6 +7,7 @@ import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { TextArea } from '../../components/TextArea';
 import { IconButton } from '../../components/IconButton';
+import { getRealm } from '../../database/realm';
 
 export function NewOrder() {
   const [isLoading, setIsLoading] = useState(false);
@@ -19,6 +20,15 @@ export function NewOrder() {
   function handleBack() {
     navigation.goBack();
   }
+
+  // async function handleNewOrderRegister() {
+  //   const realm = await getRealm();
+
+  //   try{
+
+  //   }catch(error ?)
+    
+  // }
 
   return (
     <Container>
