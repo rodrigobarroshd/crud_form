@@ -29,12 +29,12 @@ export function NewOrder() {
 
       <Form>
         <Input
-          placeholder="Número do Patrimônio"
+          placeholder="Orçamento"
           onChangeText={setPatrimony}
         />
 
         <Input
-          placeholder="Equipamento"
+          placeholder="Ocupação"
           onChangeText={setEquipment}
         />
 

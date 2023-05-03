@@ -19,7 +19,7 @@ export function Home() {
       <Orders />
 
       <Button
-        title="Novo chamado"
+        title="Novo Grupo"
         onPress={handleNewOrder}
       />
     </Container>

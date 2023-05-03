@@ -17,7 +17,7 @@ export function Orders() {
       <Filters onFilter={setStatus} />
 
       <Header>
-        <Title>Chamados {status === 'open' ? 'aberto' : 'encerrado'}</Title>
+        <Title>Grupos {status === 'open' ? 'aberto' : 'encerrado'}</Title>
         <Counter>{orders.length}</Counter>
       </Header>
 

@@ -9,8 +9,8 @@ export function Header() {
   return (
     <Container>
       <Greeting>
-        <Title>HelpDesk</Title>
-        <SubTitle>Conte conosco, estamos aqui para ajudar.</SubTitle>
+        <Title>CFG Teste</Title>
+        <SubTitle>City Football Group</SubTitle>
       </Greeting>
 
       <IconButton icon="logout" />
